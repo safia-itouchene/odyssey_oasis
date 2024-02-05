@@ -1,0 +1,44 @@
+.main-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: auto;
+    gap: 2rem 0;
+    padding: 3rem 0 2rem 0;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+.game-section{
+    width:80%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.game-section img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height:180px;
+}
+
+.game-section .details{
+    padding:0rem 1rem 1rem 1rem;
+}
+.details button{
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+    background: #fcb818;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 10px 1.2rem 10px 1.8rem;
+}
+@media screen and (max-width:1200px){
+    .main-section{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width:600px){
+    .main-section{
+        grid-template-columns: auto;
+    }
+}

@@ -1,0 +1,99 @@
+header{
+    padding:3rem  4rem 1rem  4rem;
+}
+.bg-img{ 
+    position: relative;
+    padding: 13rem; 
+    background-image: url('/src/assets/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    
+}
+.bg-filter{
+    border-radius: 20px;
+    position: absolute;
+    padding: 5rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.606);
+}
+.bg-filter h1{
+    font-size: 3rem;
+}
+.buttom-header{
+    display: flex;
+    column-gap: 2rem;
+}
+.buttom-header button{
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 10px 1.2rem 10px 1.8rem;
+}
+.play{
+    background: #fcb818;
+    color: white;
+}
+.doc{
+    background: white;
+    color: #fcb818;
+}
+@media  screen and (max-width: 950px){
+    header{
+        padding: 2rem;
+    }
+    .bg-filter{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .bg-filter h1{
+        font-size: 2rem;
+    }
+    .bg-img{
+        padding: 11rem;
+    }
+}
+
+@media  screen and (max-width: 560px){
+    header{
+        padding: 1rem;
+    }
+    .bg-filter{
+        padding: 4rem 2rem 4rem 2rem;
+    }
+    .bg-filter h1{
+        font-size: 1.8rem;
+    }
+    .buttom-header button{
+        padding: 5px 1rem 5px 1rem;
+    }
+    .bg-img{
+        padding: 10rem;
+    }
+}
+
+@media  screen and (max-width: 350px){
+
+    .bg-img{
+        padding: 8rem;
+    }
+    .bg-filter{
+        padding: 3rem 1rem 4rem 1rem;
+    }
+    .buttom-header {
+        display: grid;
+        gap: 1rem;
+    }
+    .bg-filter h1{
+        font-size: 1.2rem;
+    }
+ 
+}
