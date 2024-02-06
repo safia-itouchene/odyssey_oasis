@@ -8,6 +8,8 @@ h1 {
     grid-template-rows: 100px 100px 100px;
     cursor: pointer;
     position: relative;
+    justify-content: center;
+    top: 30px;
   }
   
   .tile {
@@ -19,13 +21,13 @@ h1 {
   }
   
   .right-border {
-    border-right: 0.2em solid #0074a6;
+    border-right: 0.2em solid #2E334D;
   }
   
   .bottom-border {
-    border-bottom: 0.2em solid #0074a6;
+    border-bottom: 0.2em solid #2E334D;
   }
-  /*
+  
   .x-hover:hover::after {
     content: "X";
     opacity: 0.4;
@@ -38,61 +40,67 @@ h1 {
   
   .strike {
     position: absolute;
-    background-color: darkorange;
+    background-color: #FFC436;
   }
   
   .strike-row-1 {
-    width: 100%;
+    width: 22.3%;
     height: 4px;
     top: 15%;
+    left: 39%;
   }
   .strike-row-2 {
-    width: 100%;
+    width: 22.3%;
     height: 4px;
     top: 48%;
+    left: 39%;
   }
   .strike-row-3 {
-    width: 100%;
+    width: 22.3%;
     height: 4px;
+    left: 39%;
     top: 83%;
   }
   .strike-column-1 {
     height: 100%;
     width: 4px;
-    left: 15%;
+    left: 42.3%;
   }
   .strike-column-2 {
     height: 100%;
     width: 4px;
-    left: 48%;
+    left: 49.6%;
   }
   .strike-column-3 {
     height: 100%;
     width: 4px;
-    left: 83%;
+    left: 57.3%;
   }
   .strike-diagonal-1 {
-    width: 90%;
+    width: 20%;
     height: 4px;
     top: 50%;
-    left: 5%;
+    left: 40.1%;
     transform: skewY(45deg);
   }
   .strike-diagonal-2 {
-    width: 90%;
+    width: 20%;
     height: 4px;
     top: 50%;
-    left: 5%;
+    left: 39.5%;
     transform: skewY(-45deg);
   }
   
   .game-over {
+    width: 20%;
     text-align: center;
-    border: #5468ff 8px;
-    border-style: dotted;
+    background: #FFC436;
+    color: white;
     padding: 10px;
     margin-top: 50px;
     font-size: 1.5em;
+    margin-left: 39%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   }
   
   .reset-button {
@@ -102,4 +110,4 @@ h1 {
     color: white;
     width: 100%;
     font-size: 1.5em;
-  }*/
+  }
