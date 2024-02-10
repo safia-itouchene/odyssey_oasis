@@ -1,6 +1,6 @@
 <h1>Odyssey Oasis 🎮</h1>
 
-<p font-size="50">this repository content a simple website that include old games like XO (Tic Tac Toe) and memory game (<b color:red>still working on it  </b>) . </p>
+<p font-size="50">this repository content a simple website that include old games like XO (Tic Tac Toe) and memory game <b>still working on it  </b> . </p>
 <h3>made with 👩‍💻 </h3>
 <ul>
   <li>React</li>
