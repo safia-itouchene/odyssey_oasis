@@ -10,7 +10,12 @@ Currently, two official plugins are available:
 <h1>Odyssey Oasis</h1>
 
 <p font-size="50">this repository content a simple website that include old games like XO (Tic Tac Toe) and memory game (still working on it) . </p>
-
+<h3>made with </h3>
+<ul>
+  <li>React</li>
+   <li>CSS</li>
+   <li>Matrial ui</li>
+</ul>
 <h2>Home Page </h2>
 
 ![O-1](https://github.com/safia-itouchene/odyssey_oasis/assets/115651730/227e460a-9edb-49e2-b2b6-775d35325519)
