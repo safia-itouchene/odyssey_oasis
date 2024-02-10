@@ -11,6 +11,6 @@ Currently, two official plugins are available:
 
 <p>this reposter contint a simple web site taht include old games like XO (TicTacToe) and memory game</p>
 
-![O-1](https://github.com/safia-itouchene/odyssey_oasis/assets/115651730/1b9f2e25-ee52-4f78-94ed-0968f828d87b).
+![o-3](https://github.com/safia-itouchene/odyssey_oasis/assets/115651730/6467538c-035a-45be-90a8-ebf22edba2bd)
 
 ![o-2](https://github.com/safia-itouchene/odyssey_oasis/assets/115651730/8f652547-d05d-47c7-8739-7c9b8d187cfa)
