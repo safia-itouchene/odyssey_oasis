@@ -14,7 +14,7 @@ Currently, two official plugins are available:
 <ul>
   <li>React</li>
    <li>CSS</li>
-   <li>Matrial ui</li>
+   <li>Material ui</li>
 </ul>
 <h2>Home Page </h2>
 
