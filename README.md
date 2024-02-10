@@ -7,10 +7,10 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-<h1>Odyssey Oasis</h1>
+<h1>Odyssey Oasis 🎮</h1>
 
 <p font-size="50">this repository content a simple website that include old games like XO (Tic Tac Toe) and memory game (still working on it) . </p>
-<h3>made with </h3>
+<h3>made with 👩‍💻 </h3>
 <ul>
   <li>React</li>
    <li>CSS</li>
