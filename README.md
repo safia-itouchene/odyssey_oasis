@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 <h1>Odyssey Oasis</h1>
 
-<p>this reposter contint a simple web site taht include old games like XO (TicTacToe) and memory game</p>
+<p font-size="50">this repository content a simple website that include old games like XO (Tic Tac Toe) and memory game (still working on it) . </p>
 
 <h2>Home Page </h2>
 
